@@ -49,6 +49,18 @@ export default function ProjectsPage() {
       bedrooms: null,
       description: t("projects.list.3.desc"),
     },
+    {
+  id: 4,
+  slug: "alnaseem",
+  title: t("projects.list.4.title"),
+  type: t("projects.list.4.type"),
+  location: t("projects.list.4.location"),
+  image: "/alnaseem/hero.jpg",
+  status: t("projects.list.status.available"),
+  priceFrom: "1,200,000",
+  bedrooms: "1-4",
+  description: t("projects.list.4.desc"),
+},
   ];
 
   return (
@@ -60,14 +72,10 @@ export default function ProjectsPage() {
 
       <div className="h-1 md:h-5"></div>
 
-      {/* Breadcrumb */}
       <div className="font-burdaBold py-4">
         <div className="container mx-auto px-4">
           <nav className="flex items-center gap-2 text-4xl">
-            <Link
-              href="/"
-              className="text-black hover:text-[#9e1915] transition"
-            >
+            <Link href="/" className="text-black hover:text-[#9e1915] transition">
               {t("projects.breadcrumb.home")}
             </Link>
 
@@ -84,7 +92,6 @@ export default function ProjectsPage() {
         </div>
       </div>
 
-      {/* Hero */}
       <section className="relative h-[60vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -108,7 +115,6 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* All Projects */}
       <section className="py-16 bg-gray-50">
         <div className="font-snd container mx-auto px-4">
           <div className="mb-12">
@@ -118,7 +124,7 @@ export default function ProjectsPage() {
             <div className="w-20 h-1 bg-[#9e1915]"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {allProjects.map((project) => (
               <Card
                 key={project.id}
@@ -170,7 +176,6 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-gray-900 via-[#9e1915] to-slate-900 text-white relative overflow-hidden">
         <div className="relative container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-burdaBold mb-6">

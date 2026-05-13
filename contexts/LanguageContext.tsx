@@ -85,79 +85,78 @@ const enTranslations: Record<string, string> = {
   "services.item2": "Investor Consulting",
   "services.item3": "Marketing Planning",
   "services.item4": "Organizational Development",
+
   // Projects Section - English
-  // Projects Section - Arabic
-"projects.sectionTag": "Our Projects",
-"projects.title": "Innovative Projects Reflecting Our Ambition",
-"projects.description":
-  "At Avenue, we focus on developing distinguished real estate projects that enhance quality of life and deliver successful, sustainable investments.",
-"projects.button.all": "View All Projects",
-"projects.pic1": "Discover the beauty and luxury of the project",
+  "projects.sectionTag": "Our Projects",
+  "projects.title": "Innovative Projects Reflecting Our Ambition",
+  "projects.description":
+    "At Avenue, we focus on developing distinguished real estate projects that enhance quality of life and deliver successful, sustainable investments.",
+  "projects.button.all": "View All Projects",
+  "projects.pic1": "Discover the beauty and luxury of the project",
 
-// Project 1
-"project1.title": "Baghdad Boulevard",
-"project1.category": "Residential Project",
-"project1.location": "Baghdad, Iraq",
-"project1.status": "Completed",
-"project1.area": "1,003,800 sqm",
-"project1.units": "200 units",
-"project1.description":
-  "Baghdad Boulevard is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that blends luxury, green spaces, and a prime location—making it the ideal destination for integrated living.",
-"project1.feature1": "Green Spaces",
-"project1.feature2": "Parking Lot",
-"project1.feature3": "24/7 Security",
-"project1.feature4": "Swimming Pool",
-"project1.feature5": "Kids Play Area",
+  // Project 1
+  "project1.title": "Baghdad Boulevard",
+  "project1.category": "Residential Project",
+  "project1.location": "Baghdad, Iraq",
+  "project1.status": "Completed",
+  "project1.area": "1,003,800 sqm",
+  "project1.units": "200 units",
+  "project1.description":
+    "Baghdad Boulevard is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that blends luxury, green spaces, and a prime location—making it the ideal destination for integrated living.",
+  "project1.feature1": "Green Spaces",
+  "project1.feature2": "Parking Lot",
+  "project1.feature3": "24/7 Security",
+  "project1.feature4": "Swimming Pool",
+  "project1.feature5": "Kids Play Area",
 
-// Project 2
-"project2.title": "Al-Ikhwa Residential City OCR",
-"project2.category": "Residential Project",
-"project2.location": "Baghdad, Iraq",
-"project2.status": "Completed",
-"project2.area": "75,000 sqm",
-"project2.units": "150 Offices",
-"project2.description":
-  "The OCR project is a prime investment and lifestyle destination in the heart of New Baghdad — combining a strategic location, modern designs, and a fully integrated urban experience.",
-"project2.feature1": "Meeting Rooms",
-"project2.feature2": "Central Air Conditioning",
-"project2.feature3": "Restaurants",
-"project2.feature4": "Multi-level Parking",
+  // Project 2
+  "project2.title": "Al-Ikhwa Residential City OCR",
+  "project2.category": "Residential Project",
+  "project2.location": "Baghdad, Iraq",
+  "project2.status": "Completed",
+  "project2.area": "75,000 sqm",
+  "project2.units": "150 Offices",
+  "project2.description":
+    "The OCR project is a prime investment and lifestyle destination in the heart of New Baghdad — combining a strategic location, modern designs, and a fully integrated urban experience.",
+  "project2.feature1": "Meeting Rooms",
+  "project2.feature2": "Central Air Conditioning",
+  "project2.feature3": "Restaurants",
+  "project2.feature4": "Multi-level Parking",
 
-// Project 3
-"project3.title": "Bloom Village",
-"project3.category": "Residential Project",
-"project3.location": "Baghdad, Iraq",
-"project3.status": "Completed",
-"project3.area": "30,000 sqm",
-"project3.units": "80 Offices",
-"project3.description":
-  "Bloom Village is an upscale residential community designed to provide its residents with a unique, fully integrated living experience.",
-"project3.feature1": "Modern Technology",
-"project3.feature2": "Rest Areas",
-"project3.feature3": "Cafeteria",
-"project3.feature4": "High-Speed Networks",
-
-
+  // Project 3
+  "project3.title": "Bloom Village",
+  "project3.category": "Residential Project",
+  "project3.location": "Baghdad, Iraq",
+  "project3.status": "Completed",
+  "project3.area": "30,000 sqm",
+  "project3.units": "80 Offices",
+  "project3.description":
+    "Bloom Village is an upscale residential community designed to provide its residents with a unique, fully integrated living experience.",
+  "project3.feature1": "Modern Technology",
+  "project3.feature2": "Rest Areas",
+  "project3.feature3": "Cafeteria",
+  "project3.feature4": "High-Speed Networks",
 
   // Breadcrumb
   "projects.breadcrumb.home": "Home",
   "projects.breadcrumb.current": "Our Projects",
-   "projects.overview": "Overview",
-   "projects.features": "Features",
-   "projects.pic": "Photo Gallery",
-   "projects.pic2": "Explore the beauty and luxury of the project of",
-   "projects.bloom": "Bloom Village project brochures",
- "projects.bloom2": "Discover more details about the project by browsing and downloading the following brochures.",
- "projects.bloom.brouchure": "General brochure",
- "projects.bloom.brouchure2": "Villas and Plans Brochure",
- "projects.bloom.brouchure3": "Download the brochure",
- "projects.bloom.brouchure4": " Master Plan",
-
+  "projects.overview": "Overview",
+  "projects.features": "Features",
+  "projects.pic": "Photo Gallery",
+  "projects.pic2": "Explore the beauty and luxury of the project of",
+  "projects.bloom": "Bloom Village project brochures",
+  "projects.bloom2":
+    "Discover more details about the project by browsing and downloading the following brochures.",
+  "projects.bloom.brouchure": "General brochure",
+  "projects.bloom.brouchure2": "Villas and Plans Brochure",
+  "projects.bloom.brouchure3": "Download the brochure",
+  "projects.bloom.brouchure4": " Master Plan",
 
   // Hero
   "projects.hero.title": "Our Projects",
   "projects.paragraph": "Innovative projects that reflect our ambition",
-  "projects.hero.subtitle": "Discover a variety of luxury residential and commercial projects in the best locations in Iraq",
+  "projects.hero.subtitle":
+    "Discover a variety of luxury residential and commercial projects in the best locations in Iraq",
   "projects.hero.alt": "Avenue Projects",
 
   // All Projects Section
@@ -166,7 +165,8 @@ const enTranslations: Record<string, string> = {
 
   // CTA
   "projects.cta.title": "Looking for your dream home?",
-  "projects.cta.subtitle": "Our team of experts is ready to help you find the perfect project that meets your needs and aspirations",
+  "projects.cta.subtitle":
+    "Our team of experts is ready to help you find the perfect project that meets your needs and aspirations",
   "projects.cta.button": "Contact Us",
 
   // Status
@@ -178,23 +178,35 @@ const enTranslations: Record<string, string> = {
   "projects.list.1.title": "Jadat Baghdad",
   "projects.list.1.type": "Residential",
   "projects.list.1.location": "Iraq, Baghdad",
-  "projects.list.1.desc": "An integrated project on an area of 1,003,800 square meters, featuring a balance between green spaces and modern construction. The first Saudi investment in Baghdad, with a strategic location near the Equestrian Club and Veterinary College. Combines luxury, nature, and modern life.",
+  "projects.list.1.desc":
+    "An integrated project on an area of 1,003,800 square meters, featuring a balance between green spaces and modern construction. The first Saudi investment in Baghdad, with a strategic location near the Equestrian Club and Veterinary College. Combines luxury, nature, and modern life.",
 
   /***************
    * Project 2
    ***************/
-  "projects.list.2.title": "OCR Residential City", 
+  "projects.list.2.title": "OCR Residential City",
   "projects.list.2.type": "Residential",
   "projects.list.2.location": "Iraq, Baghdad",
-  "projects.list.2.desc": "An upscale residential and commercial project in a prime location next to the American University and Al-Bayan University. Features modern apartments with areas of 142 sqm and 172 sqm, and a 2 km main street hosting international brands. Combines housing, shopping, and entertainment in the heart of New Baghdad.",
+  "projects.list.2.desc":
+    "An upscale residential and commercial project in a prime location next to the American University and Al-Bayan University. Features modern apartments with areas of 142 sqm and 172 sqm, and a 2 km main street hosting international brands. Combines housing, shopping, and entertainment in the heart of New Baghdad.",
 
   /***************
    * Project 3
    ***************/
   "projects.list.3.title": "Bloom Village",
-  "projects.list.3.type": "Residential", 
+  "projects.list.3.type": "Residential",
   "projects.list.3.location": "Iraq, Baghdad",
-  "projects.list.3.desc": "A luxury residential community offering villas with areas starting from 200 sqm up to 1000 sqm, with integrated facilities including paddle courts, green spaces, sports clubs, swimming pools, and an equestrian club. An ideal destination for upscale family living in an integrated environment.",
+  "projects.list.3.desc":
+    "A luxury residential community offering villas with areas starting from 200 sqm up to 1000 sqm, with integrated facilities including paddle courts, green spaces, sports clubs, swimming pools, and an equestrian club. An ideal destination for upscale family living in an integrated environment.",
+
+  /***************
+   * Project 4
+   ***************/
+  "projects.list.4.title": "Al Naseem Compound",
+  "projects.list.4.type": "Residential Compound",
+  "projects.list.4.location": "Baghdad - Iraq",
+  "projects.list.4.desc":
+    "A modern residential compound that offers a comfortable environment and integrated services for families.",
 
   // CTA Section - English
   "cta.title": "Are you ready to take your next investment step",
@@ -314,29 +326,29 @@ const enTranslations: Record<string, string> = {
     "Contact us today and begin your investment journey with Avenue",
   "about.cta.button": "Contact Us",
 
-  // 🔹 Breadcrumb
+  // Breadcrumb
   "what.breadcrumb.home": "Home",
   "what.breadcrumb.current": "Our Services",
 
-  // 🔹 Hero
+  // Hero
   "what.hero.title": "Our Services",
   "what.hero.subtitle":
     "We provide integrated and comprehensive solutions in real estate development, marketing, investment, and relationship management.",
 
-  // 🔹 Section: Overview
+  // Section: Overview
   "what.overview.badge": "Our Services",
   "what.overview.title": "Our Work Fields",
   "what.overview.subtitle":
     "We offer complete services for every stage of the real estate journey.",
 
-  // 🔹 Overview Services Cards Titles
+  // Overview Services Cards Titles
   "what.service1": "Market Analysis & Marketing Strategy",
   "what.service2": "Real Estate & Investor Consulting",
   "what.service3": "Real Estate Valuation",
   "what.service4": "Training Programs",
   "what.service5": "Performance Enhancement",
 
-  // 🔹 Section: Methodology
+  // Section: Methodology
   "what.methodology.badge": "Our Methodology",
   "what.methodology.title": "How We Work",
   "what.methodology.subtitle":
@@ -359,17 +371,17 @@ const enTranslations: Record<string, string> = {
   "what.step4.desc":
     "Project handover with after-sales support and continuous maintenance.",
 
-  // 🔹 Section: Detailed Services
+  // Section: Detailed Services
   "what.detailed.title": "Detailed Services",
   "what.detailed.subtitle":
     "We offer three core service packages covering all real estate development and marketing needs.",
 
-  // 🔹 Detailed — Group Titles
+  // Detailed — Group Titles
   "what.detail.group1": "Real Estate Development Services",
   "what.detail.group2": "Real Estate Marketing Services",
   "what.detail.group3": "Additional Support Services",
 
-  // 🔹 Detailed — Group 1 Items
+  // Detailed — Group 1 Items
   "what.detail1.item1":
     "• Comprehensive real estate feasibility studies including site analysis, target audience, competitors, and investment opportunities.",
   "what.detail1.item2":
@@ -383,7 +395,7 @@ const enTranslations: Record<string, string> = {
   "what.detail1.item6":
     "• Branding and visual identity creation for real estate projects (name, logo, colors, social media, brochures, website).",
 
-  // 🔹 Detailed — Group 2 Items
+  // Detailed — Group 2 Items
   "what.detail2.item1":
     "• Full marketing strategies including content, ads, field events, and PR.",
   "what.detail2.item2":
@@ -399,7 +411,7 @@ const enTranslations: Record<string, string> = {
   "what.detail2.item7":
     "• Public relations & media outreach connecting with press and influencers.",
 
-  // 🔹 Detailed — Group 3 Items
+  // Detailed — Group 3 Items
   "what.detail3.item1":
     "• Preparing professional PowerPoint presentations and PDF investor files.",
   "what.detail3.item2": "• Developing real estate project websites.",
@@ -407,7 +419,7 @@ const enTranslations: Record<string, string> = {
   "what.detail3.item4":
     "• Monthly performance analytics and reporting (Reports & Insights).",
 
-    //contact
+  // Contact
   "contact_breadcrumb_home": "Home",
   "contact_breadcrumb_page": "Contact Us",
 
@@ -452,7 +464,7 @@ const enTranslations: Record<string, string> = {
   "social_title": "Stay Connected",
   "social_sub": "Follow our latest updates and news on social media.",
 
-    /**************************
+  /**************************
    * PROJECT DETAILS PAGE - ENGLISH
    **************************/
 
@@ -461,16 +473,23 @@ const enTranslations: Record<string, string> = {
   "projects.details.jadatbaghdad.type": "Residential",
   "projects.details.jadatbaghdad.location": "Al-Ameriya, Baghdad",
   "projects.details.jadatbaghdad.status": "Available Now",
-  "projects.details.jadatbaghdad.description": "Jadat Baghdad is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that combines luxury, green spaces, and a strategic location that makes it the ideal destination for integrated living.",
-  "projects.details.jadatbaghdad.longDescription.1": "Jadat Baghdad project extends over an area of 1,003,800 square meters, with 60% dedicated to green spaces and 40% for horizontal and vertical construction, creating an ideal balance between nature and modern life.",
-  "projects.details.jadatbaghdad.longDescription.2": "The project is located in Al-Ameriya area opposite the College of Veterinary Medicine and adjacent to the Equestrian Club, within the Al-Ameriya real estate registration circle, and enjoys a strategic location connected to the international road from the north, the old Abu Ghraib road from the south, and Al-Ameriya road and Al-Jihad neighborhood from the east.",
-  "projects.details.jadatbaghdad.longDescription.3": "Jadat Baghdad is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that combines luxury, green spaces, and a strategic location that makes it the ideal destination for integrated living.",
-  "projects.details.jadatbaghdad.feature.1": "60% of the project is green spaces",
+  "projects.details.jadatbaghdad.description":
+    "Jadat Baghdad is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that combines luxury, green spaces, and a strategic location that makes it the ideal destination for integrated living.",
+  "projects.details.jadatbaghdad.longDescription.1":
+    "Jadat Baghdad project extends over an area of 1,003,800 square meters, with 60% dedicated to green spaces and 40% for horizontal and vertical construction, creating an ideal balance between nature and modern life.",
+  "projects.details.jadatbaghdad.longDescription.2":
+    "The project is located in Al-Ameriya area opposite the College of Veterinary Medicine and adjacent to the Equestrian Club, within the Al-Ameriya real estate registration circle, and enjoys a strategic location connected to the international road from the north, the old Abu Ghraib road from the south, and Al-Ameriya road and Al-Jihad neighborhood from the east.",
+  "projects.details.jadatbaghdad.longDescription.3":
+    "Jadat Baghdad is the first Saudi investment in the capital Baghdad, embodying a modern urban vision that combines luxury, green spaces, and a strategic location that makes it the ideal destination for integrated living.",
+  "projects.details.jadatbaghdad.feature.1":
+    "60% of the project is green spaces",
   "projects.details.jadatbaghdad.feature.2": "Modern urban design",
-  "projects.details.jadatbaghdad.feature.3": "Strategic location in the heart of Baghdad",
+  "projects.details.jadatbaghdad.feature.3":
+    "Strategic location in the heart of Baghdad",
   "projects.details.jadatbaghdad.feature.4": "Adjacent to the Equestrian Club",
   "projects.details.jadatbaghdad.feature.5": "Multiple access roads",
-  "projects.details.jadatbaghdad.feature.6": "Balance between nature and modern life",
+  "projects.details.jadatbaghdad.feature.6":
+    "Balance between nature and modern life",
   "projects.details.jadatbaghdad.location.address": "Al-Ameriya, Baghdad, Iraq",
   "projects.details.jadatbaghdad.nearby.1": "College of Veterinary Medicine",
   "projects.details.jadatbaghdad.nearby.2": "Equestrian Club",
@@ -482,28 +501,56 @@ const enTranslations: Record<string, string> = {
   "projects.details.ocr.type": "Residential",
   "projects.details.ocr.location": "Near Baghdad International Airport",
   "projects.details.ocr.status": "Available Now",
-  "projects.details.ocr.description": "The OCR project is located in a strategic position near Baghdad International Airport, next to Al-Bayan University and the American University in Baghdad, and features a 2 km main street hosting a collection of international brands.",
-  "projects.details.ocr.longDescription.1": "The OCR project is located in a strategic position near Baghdad International Airport, next to Al-Bayan University and the American University in Baghdad, and features a 2 km main street hosting a collection of international brands. The project also includes residential apartments with areas of 142 square meters and 172 square meters, designed according to modern standards that combine luxury and practicality.",
-  "projects.details.ocr.longDescription.2": "The OCR project is an investment destination and upscale living in the heart of New Baghdad — combining prime location, contemporary designs, and an integrated urban experience. By integrating housing, shopping, and entertainment, the project offers a unique lifestyle that meets the aspirations of both families and investors.",
-  "projects.details.ocr.feature.1": "Strategic location near the airport",
+  "projects.details.ocr.description":
+    "The OCR project is located in a strategic position near Baghdad International Airport, next to Al-Bayan University and the American University in Baghdad, and features a 2 km main street hosting a collection of international brands.",
+  "projects.details.ocr.longDescription.1":
+    "The OCR project is located in a strategic position near Baghdad International Airport, next to Al-Bayan University and the American University in Baghdad, and features a 2 km main street hosting a collection of international brands. The project also includes residential apartments with areas of 142 square meters and 172 square meters, designed according to modern standards that combine luxury and practicality.",
+  "projects.details.ocr.longDescription.2":
+    "The OCR project is an investment destination and upscale living in the heart of New Baghdad — combining prime location, contemporary designs, and an integrated urban experience. By integrating housing, shopping, and entertainment, the project offers a unique lifestyle that meets the aspirations of both families and investors.",
+  "projects.details.ocr.feature.1":
+    "Strategic location near the airport",
   "projects.details.ocr.feature.2": "2 km main street",
   "projects.details.ocr.feature.3": "International brands",
   "projects.details.ocr.feature.4": "Contemporary designs",
-  "projects.details.ocr.feature.5": "Integrated environment for living and entertainment",
+  "projects.details.ocr.feature.5":
+    "Integrated environment for living and entertainment",
 
   // Project 3 - Bloom Village
   "projects.details.bloomvillage.title": "Bloom Village",
   "projects.details.bloomvillage.type": "Residential",
   "projects.details.bloomvillage.location": "New Baghdad",
   "projects.details.bloomvillage.status": "Available Now",
-  "projects.details.bloomvillage.description": "Bloom Village is an upscale residential community designed to provide its residents with a unique, integrated living experience with spaces starting from 200 square meters up to 1000 square meters.",
-  "projects.details.bloomvillage.longDescription.1": "Bloom Village is an upscale residential community designed to provide its residents with a unique, integrated living experience. The project includes six diverse spaces starting from 200 square meters and reaching 250 square meters, 300 square meters, 600 square meters, 800 square meters, and 1000 square meters, providing wide options suitable for both families and investors.",
-  "projects.details.bloomvillage.longDescription.2": "In addition to residences, Bloom Village features distinguished facilities such as paddle courts, extensive green spaces, an equestrian club, swimming pools, and sports clubs — all in one place to provide a lifestyle that combines comfort, luxury, and activity.",
+  "projects.details.bloomvillage.description":
+    "Bloom Village is an upscale residential community designed to provide its residents with a unique, integrated living experience with spaces starting from 200 square meters up to 1000 square meters.",
+  "projects.details.bloomvillage.longDescription.1":
+    "Bloom Village is an upscale residential community designed to provide its residents with a unique, integrated living experience. The project includes six diverse spaces starting from 200 square meters and reaching 250 square meters, 300 square meters, 600 square meters, 800 square meters, and 1000 square meters, providing wide options suitable for both families and investors.",
+  "projects.details.bloomvillage.longDescription.2":
+    "In addition to residences, Bloom Village features distinguished facilities such as paddle courts, extensive green spaces, an equestrian club, swimming pools, and sports clubs — all in one place to provide a lifestyle that combines comfort, luxury, and activity.",
   "projects.details.bloomvillage.feature.1": "Paddle courts",
   "projects.details.bloomvillage.feature.2": "Equestrian club",
   "projects.details.bloomvillage.feature.3": "Multiple swimming pools",
   "projects.details.bloomvillage.feature.4": "Sports clubs",
   "projects.details.bloomvillage.feature.5": "Extensive green spaces",
+
+  // Project 4 - Al Naseem
+  "projects.details.alnaseem.title": "Al Naseem Compound",
+  "projects.details.alnaseem.type": "Residential Compound",
+  "projects.details.alnaseem.location": "Baghdad - Iraq",
+  "projects.details.alnaseem.status": "Available Now",
+  "projects.details.alnaseem.description":
+    "A modern residential compound that offers a comfortable environment and integrated services for families.",
+  "projects.details.alnaseem.longDescription.1":
+    "Al Naseem Compound is an integrated residential project designed to provide a modern and comfortable lifestyle for families.",
+  "projects.details.alnaseem.longDescription.2":
+    "The project features a contemporary layout, essential services, and spaces suited to different needs.",
+  "projects.details.alnaseem.longDescription.3":
+    "It focuses on quality execution, a suitable location, and providing a safe and quiet residential environment.",
+  "projects.details.alnaseem.feature.1": "Prime location",
+  "projects.details.alnaseem.feature.2": "Modern design",
+  "projects.details.alnaseem.feature.3": "Integrated services",
+  "projects.details.alnaseem.feature.4": "Green spaces",
+  "projects.details.alnaseem.feature.5": "Safe residential environment",
+  "projects.details.alnaseem.feature.6": "Multiple housing options",
 };
 
 // Arabic translations
@@ -574,7 +621,7 @@ const arTranslations: Record<string, string> = {
   "projects.description":
     "في أفينيو، نركز على تطوير مشاريع عقارية متميزة تعزز من جودة الحياة وتحقق استثمارًا ناجحًا ومستدامًا.",
   "projects.button.all": "عرض جميع المشاريع",
-     "projects.pic1": "استكشف جمال وفخامة مشروع",
+  "projects.pic1": "استكشف جمال وفخامة مشروع",
 
   // Project 1
   "project1.title": "جادة بغداد",
@@ -618,6 +665,7 @@ const arTranslations: Record<string, string> = {
   "project3.feature2": "مناطق استراحة",
   "project3.feature3": "كافيتيريا",
   "project3.feature4": "شبكات عالية السرعة",
+
   // CTA Section - Arabic
   "cta.title": "هل أنت مستعد لتأخذ خطوتك الاستثمارية التالية؟",
   "cta.description":
@@ -733,29 +781,29 @@ const arTranslations: Record<string, string> = {
     "تواصل معنا اليوم وابدأ شراكتك الاستثمارية مع شركة أفينيو",
   "about.cta.button": "تواصل معنا",
 
-  // 🔹 Breadcrumb
+  // Breadcrumb
   "what.breadcrumb.home": "الرئيسية",
   "what.breadcrumb.current": "خدماتنا",
 
-  // 🔹 Hero
+  // Hero
   "what.hero.title": "خدماتنا",
   "what.hero.subtitle":
     "نقدم حلولاً شاملة ومتكاملة في قطاعات التطوير العقاري والتسويق والاستثمار وإدارة العلاقات.",
 
-  // 🔹 Section: Overview
+  // Section: Overview
   "what.overview.badge": "خدماتنا",
   "what.overview.title": "مجالات عملنا",
   "what.overview.subtitle":
     "نحن نقدم خدمات شاملة في كل مرحلة من مراحل رحلة العقارات",
 
-  // 🔹 Overview Services Cards Titles
+  // Overview Services Cards Titles
   "what.service1": "تحليل السوق والتخطيط التسويقي",
   "what.service2": "استشارات عقارية واستشارات للمستثمرين",
   "what.service3": "التقييم العقاري",
   "what.service4": "الدورات التدريبية",
   "what.service5": "تحسين الأداء",
 
-  // 🔹 Section: Methodology
+  // Section: Methodology
   "what.methodology.badge": "منهجيتنا",
   "what.methodology.title": "كيف نعمل",
   "what.methodology.subtitle":
@@ -766,7 +814,8 @@ const arTranslations: Record<string, string> = {
   "what.step1.desc": "دراسة شاملة للسوق والموقع ووضع خطة استراتيجية مفصلة.",
 
   "what.step2.title": "التصميم والتطوير",
-  "what.step2.desc": "تصميم مبتكر يجمع بين الجمال والوظائف العملية والاستدامة.",
+  "what.step2.desc":
+    "تصميم مبتكر يجمع بين الجمال والوظائف العملية والاستدامة.",
 
   "what.step3.title": "التنفيذ والبناء",
   "what.step3.desc":
@@ -776,17 +825,17 @@ const arTranslations: Record<string, string> = {
   "what.step4.desc":
     "تسليم المشروع وتقديم خدمات ما بعد البيع والصيانة المستمرة.",
 
-  // 🔹 Section: Detailed Services
+  // Section: Detailed Services
   "what.detailed.title": "خدماتنا التفصيلية",
   "what.detailed.subtitle":
     "نقدم ثلاث حزم رئيسية من الخدمات تغطي جميع احتياجات التطوير والتسويق العقاري من البداية حتى ما بعد البيع.",
 
-  // 🔹 Detailed — Group Titles
+  // Detailed — Group Titles
   "what.detail.group1": "أولاً: خدمات التطوير العقاري",
   "what.detail.group2": "ثانياً: خدمات التسويق العقاري",
   "what.detail.group3": "ثالثاً: خدمات إضافية داعمة",
 
-  // 🔹 Detailed — Group 1 Items
+  // Detailed — Group 1 Items
   "what.detail1.item1":
     "• دراسة الجدوى العقارية الشاملة تحليل الموقع، الفئة المستهدفة، المنافسين، والفرص الاستثمارية.",
   "what.detail1.item2":
@@ -800,7 +849,7 @@ const arTranslations: Record<string, string> = {
   "what.detail1.item6":
     "• تصميم الهويّة البصرية والبراندينغ للمشاريع العقارية (اسم المشروع – الشعار – الألوان – السوشال ميديا – الكتيبات – الموقع الإلكتروني).",
 
-  // 🔹 Detailed — Group 2 Items
+  // Detailed — Group 2 Items
   "what.detail2.item1":
     "• استراتيجية تسويقية متكاملة للمشاريع وضع خطة تشمل المحتوى، الإعلانات، الأحداث الميدانية، والعلاقات العامة.",
   "what.detail2.item2":
@@ -816,7 +865,7 @@ const arTranslations: Record<string, string> = {
   "what.detail2.item7":
     "• خدمة العلاقات العامة والإعلام التواصل مع الصحافة والمؤثرين لتغطية المشاريع ورفع قيمة البراند.",
 
-  // 🔹 Detailed — Group 3 Items
+  // Detailed — Group 3 Items
   "what.detail3.item1":
     "• إعداد عروض PowerPoint وملفات PDF احترافية للمستثمرين.",
   "what.detail3.item2": "• تطوير المواقع الإلكترونية للمشاريع العقارية.",
@@ -836,11 +885,12 @@ const arTranslations: Record<string, string> = {
   "projects.pic": "معرض الصور",
   "projects.pic2": "استكشف جمال وفخامة مشروع",
   "projects.bloom": "بروشورات مشروع بلوم فيلج",
-  "projects.bloom2": "اكتشف تفاصيل المشروع بشكل أعمق من خلال تصفح وتحميل البروشورات التالية",
-   "projects.bloom.brouchure": "البروشور العام",
- "projects.bloom.brouchure2": "بروشور الفلل والمخططات",
- "projects.bloom.brouchure3": "تحميل البروشور",
- "projects.bloom.brouchure4": "مخطط المشروع",
+  "projects.bloom2":
+    "اكتشف تفاصيل المشروع بشكل أعمق من خلال تصفح وتحميل البروشورات التالية",
+  "projects.bloom.brouchure": "البروشور العام",
+  "projects.bloom.brouchure2": "بروشور الفلل والمخططات",
+  "projects.bloom.brouchure3": "تحميل البروشور",
+  "projects.bloom.brouchure4": "مخطط المشروع",
 
   // Hero
   "projects.hero.title": "مشاريعنا",
@@ -888,10 +938,19 @@ const arTranslations: Record<string, string> = {
   "projects.list.3.desc":
     "مجتمع سكني فاخر يوفر فللاً بمساحات تبدأ من 200 متر مربع حتى 1000 متر مربع، مع مرافق متكاملة تشمل ملاعب بادل، مساحات خضراء، نوادٍ رياضية، مسابح، ونادي فروسية. وجهة مثالية لحياة عائلية راقية وسط بيئة متكاملة.",
 
-   /***************
-   *contact
+  /***************
+   * Project 4
    ***************/
- "contact_breadcrumb_home": "الرئيسية",
+  "projects.list.4.title": "مجمع النسيم",
+  "projects.list.4.type": "مجمع سكني",
+  "projects.list.4.location": "بغداد - العراق",
+  "projects.list.4.desc":
+    "مجمع سكني حديث يوفر بيئة مريحة وخدمات متكاملة للعائلات.",
+
+  /***************
+   * Contact
+   ***************/
+  "contact_breadcrumb_home": "الرئيسية",
   "contact_breadcrumb_page": "تواصل معنا",
 
   "contact_hero_title": "تواصل معنا",
@@ -908,7 +967,8 @@ const arTranslations: Record<string, string> = {
   "contact_info_email_title": "البريد الإلكتروني",
 
   "contact_form_title": "أرسل لنا رسالة",
-  "contact_form_sub": "املأ النموذج أدناه وسنتواصل معك في أقرب وقت ممكن",
+  "contact_form_sub":
+    "املأ النموذج أدناه وسنتواصل معك في أقرب وقت ممكن",
 
   "contact_form_name": "الاسم الكامل",
   "contact_form_email": "البريد الإلكتروني",
@@ -932,9 +992,10 @@ const arTranslations: Record<string, string> = {
 
   "social_chip": "تابعنا",
   "social_title": "ابق على تواصل معنا",
-  "social_sub": "تابع آخر أخبارنا وتحديثاتنا عبر منصات التواصل الاجتماعي",
+  "social_sub":
+    "تابع آخر أخبارنا وتحديثاتنا عبر منصات التواصل الاجتماعي",
 
-   /**************************
+  /**************************
    * PROJECT DETAILS PAGE - ARABIC
    **************************/
 
@@ -943,16 +1004,22 @@ const arTranslations: Record<string, string> = {
   "projects.details.jadatbaghdad.type": "سكني",
   "projects.details.jadatbaghdad.location": "العامرية، بغداد",
   "projects.details.jadatbaghdad.status": "متاح الآن",
-  "projects.details.jadatbaghdad.description": "يُعد جادة بغداد أول استثمار سعودي في العاصمة بغداد، ويجسد رؤية عمرانية حديثة تجمع بين الرفاهية، والمساحات الخضراء، والموقع الحيوي الذي يجعل منه الوجهة المثالية للحياة المتكاملة.",
-  "projects.details.jadatbaghdad.longDescription.1": "يمتد مشروع جادة بغداد على مساحة تبلغ 1,003,800 متر مربع، خُصص منها 60٪ للمساحات الخضراء و40٪ للبناء الأفقي والعمودي، ليشكل توازناً مثالياً بين الطبيعة والحياة العصرية.",
-  "projects.details.jadatbaghdad.longDescription.2": "يقع المشروع في منطقة العامرية مقابل كلية الطب البيطري وبجوار نادي الفروسية، ضمن دائرة تسجيل عقاري العامرية، ويتمتع بموقع استراتيجي يربطه بالطريق الدولي من الشمال، وطريق أبو غريب القديم من الجنوب، وطريق العامرية وحي الجهاد من الشرق.",
-  "projects.details.jadatbaghdad.longDescription.3": "يُعد جادة بغداد أول استثمار سعودي في العاصمة بغداد، ويجسد رؤية عمرانية حديثة تجمع بين الرفاهية، والمساحات الخضراء، والموقع الحيوي الذي يجعل منه الوجهة المثالية للحياة المتكاملة.",
+  "projects.details.jadatbaghdad.description":
+    "يُعد جادة بغداد أول استثمار سعودي في العاصمة بغداد، ويجسد رؤية عمرانية حديثة تجمع بين الرفاهية، والمساحات الخضراء، والموقع الحيوي الذي يجعل منه الوجهة المثالية للحياة المتكاملة.",
+  "projects.details.jadatbaghdad.longDescription.1":
+    "يمتد مشروع جادة بغداد على مساحة تبلغ 1,003,800 متر مربع، خُصص منها 60٪ للمساحات الخضراء و40٪ للبناء الأفقي والعمودي، ليشكل توازناً مثالياً بين الطبيعة والحياة العصرية.",
+  "projects.details.jadatbaghdad.longDescription.2":
+    "يقع المشروع في منطقة العامرية مقابل كلية الطب البيطري وبجوار نادي الفروسية، ضمن دائرة تسجيل عقاري العامرية، ويتمتع بموقع استراتيجي يربطه بالطريق الدولي من الشمال، وطريق أبو غريب القديم من الجنوب، وطريق العامرية وحي الجهاد من الشرق.",
+  "projects.details.jadatbaghdad.longDescription.3":
+    "يُعد جادة بغداد أول استثمار سعودي في العاصمة بغداد، ويجسد رؤية عمرانية حديثة تجمع بين الرفاهية، والمساحات الخضراء، والموقع الحيوي الذي يجعل منه الوجهة المثالية للحياة المتكاملة.",
   "projects.details.jadatbaghdad.feature.1": "60٪ من المشروع مساحات خضراء",
   "projects.details.jadatbaghdad.feature.2": "تصميم عمراني حديث",
-  "projects.details.jadatbaghdad.feature.3": "موقع استراتيجي في قلب بغداد",
+  "projects.details.jadatbaghdad.feature.3":
+    "موقع استراتيجي في قلب بغداد",
   "projects.details.jadatbaghdad.feature.4": "بجوار نادي الفروسية",
   "projects.details.jadatbaghdad.feature.5": "طرق وصول متعددة",
-  "projects.details.jadatbaghdad.feature.6": "توازن بين الطبيعة والحياة العصرية",
+  "projects.details.jadatbaghdad.feature.6":
+    "توازن بين الطبيعة والحياة العصرية",
   "projects.details.jadatbaghdad.location.address": "العامرية، بغداد، العراق",
   "projects.details.jadatbaghdad.nearby.1": "كلية الطب البيطري",
   "projects.details.jadatbaghdad.nearby.2": "نادي الفروسية",
@@ -964,9 +1031,12 @@ const arTranslations: Record<string, string> = {
   "projects.details.ocr.type": "سكني",
   "projects.details.ocr.location": "قرب مطار بغداد الدولي",
   "projects.details.ocr.status": "متاح الآن",
-  "projects.details.ocr.description": "مشروع OCR يقع في موقع استراتيجي قرب مطار بغداد الدولي، وبجانب جامعتي البيان والجامعة الأمريكية في بغداد، ويضم شارعاً رئيسياً بطول 2 كم يحتضن مجموعة من العلامات التجارية العالمية.",
-  "projects.details.ocr.longDescription.1": "مشروع OCR يقع في موقع استراتيجي قرب مطار بغداد الدولي، وبجانب جامعتي جامعة البيان والجامعة الأمريكية في بغداد، ويضم شارعاً رئيسياً بطول 2 كم يحتضن مجموعة من العلامات التجارية العالمية. كما يحتوي المشروع على شقق سكنية بمساحات 142 متر مربع و 172 متر مربع، مصمَّمة وفق معايير حديثة تجمع بين الفخامة والعملية.",
-  "projects.details.ocr.longDescription.2": "يُعد مشروع OCR وجهة استثمارية وحياة راقية في قلب بغداد الجديدة — يجمع بين الموقع المميز، التصاميم العصرية، والتجربة الحضرية المتكاملة. من خلال الدمج بين السكن، التسوق، والترفيه، يوفر المشروع نمط حياة فريد يلبي تطلعات العوائل والمستثمرين على حدّ سواء.",
+  "projects.details.ocr.description":
+    "مشروع OCR يقع في موقع استراتيجي قرب مطار بغداد الدولي، وبجانب جامعتي البيان والجامعة الأمريكية في بغداد، ويضم شارعاً رئيسياً بطول 2 كم يحتضن مجموعة من العلامات التجارية العالمية.",
+  "projects.details.ocr.longDescription.1":
+    "مشروع OCR يقع في موقع استراتيجي قرب مطار بغداد الدولي، وبجانب جامعتي جامعة البيان والجامعة الأمريكية في بغداد، ويضم شارعاً رئيسياً بطول 2 كم يحتضن مجموعة من العلامات التجارية العالمية. كما يحتوي المشروع على شقق سكنية بمساحات 142 متر مربع و 172 متر مربع، مصمَّمة وفق معايير حديثة تجمع بين الفخامة والعملية.",
+  "projects.details.ocr.longDescription.2":
+    "يُعد مشروع OCR وجهة استثمارية وحياة راقية في قلب بغداد الجديدة — يجمع بين الموقع المميز، التصاميم العصرية، والتجربة الحضرية المتكاملة. من خلال الدمج بين السكن، التسوق، والترفيه، يوفر المشروع نمط حياة فريد يلبي تطلعات العوائل والمستثمرين على حدّ سواء.",
   "projects.details.ocr.feature.1": "موقع استراتيجي قرب المطار",
   "projects.details.ocr.feature.2": "شارع رئيسي بطول 2 كم",
   "projects.details.ocr.feature.3": "علامات تجارية عالمية",
@@ -978,15 +1048,37 @@ const arTranslations: Record<string, string> = {
   "projects.details.bloomvillage.type": "سكني",
   "projects.details.bloomvillage.location": "بغداد الجديدة",
   "projects.details.bloomvillage.status": "متاح الآن",
-  "projects.details.bloomvillage.description": "يُعد مشروع Bloom Village مجتمعاً سكنياً راقياً صُمّم ليمنح سكانه تجربة معيشية فريدة متكاملة بمساحات تبدأ من 200 متر مربع وتصل إلى 1000 متر مربع.",
-  "projects.details.bloomvillage.longDescription.1": "يُعد مشروع Bloom Village مجتمعاً سكنياً راقياً صُمّم ليمنح سكانه تجربة معيشية فريدة متكاملة. يضم المشروع ست مساحات متنوعة تبدأ من 200 متر مربع وتصل إلى 250 متر مربع، 300 متر مربع، 600 متر مربع، 800 متر مربع، و 1000 متر مربع، ما يُتيح خيارات واسعة تناسب العائلات والمستثمرين على حدّ سواء.",
-  "projects.details.bloomvillage.longDescription.2": "إلى جانب المساكن، يحتوي Bloom Village على مرافق مميزة مثل ملاعب بادل، مساحات خضراء واسعة، نادي فروسية، مسابح، ونوادي رياضية — كلّها في مكان واحد لتوفير نمط حياة يجمع بين الراحة، الفخامة، والنشاط.",
+  "projects.details.bloomvillage.description":
+    "يُعد مشروع Bloom Village مجتمعاً سكنياً راقياً صُمّم ليمنح سكانه تجربة معيشية فريدة متكاملة بمساحات تبدأ من 200 متر مربع وتصل إلى 1000 متر مربع.",
+  "projects.details.bloomvillage.longDescription.1":
+    "يُعد مشروع Bloom Village مجتمعاً سكنياً راقياً صُمّم ليمنح سكانه تجربة معيشية فريدة متكاملة. يضم المشروع ست مساحات متنوعة تبدأ من 200 متر مربع وتصل إلى 250 متر مربع، 300 متر مربع، 600 متر مربع، 800 متر مربع، و 1000 متر مربع، ما يُتيح خيارات واسعة تناسب العائلات والمستثمرين على حدّ سواء.",
+  "projects.details.bloomvillage.longDescription.2":
+    "إلى جانب المساكن، يحتوي Bloom Village على مرافق مميزة مثل ملاعب بادل، مساحات خضراء واسعة، نادي فروسية، مسابح، ونوادي رياضية — كلّها في مكان واحد لتوفير نمط حياة يجمع بين الراحة، الفخامة، والنشاط.",
   "projects.details.bloomvillage.feature.1": "ملاعب بادل",
   "projects.details.bloomvillage.feature.2": "نادي فروسية",
   "projects.details.bloomvillage.feature.3": "مسابح متعددة",
   "projects.details.bloomvillage.feature.4": "نوادي رياضية",
   "projects.details.bloomvillage.feature.5": "مساحات خضراء واسعة",
 
+  // Project 4 - Al Naseem
+  "projects.details.alnaseem.title": "مجمع النسيم",
+  "projects.details.alnaseem.type": "مجمع سكني",
+  "projects.details.alnaseem.location": "بغداد - العراق",
+  "projects.details.alnaseem.status": "متاح الآن",
+  "projects.details.alnaseem.description":
+    "مجمع سكني حديث يوفر بيئة مريحة وخدمات متكاملة للعائلات.",
+  "projects.details.alnaseem.longDescription.1":
+    "مجمع النسيم مشروع سكني متكامل صُمم ليوفر أسلوب حياة عصري ومريح للعائلات.",
+  "projects.details.alnaseem.longDescription.2":
+    "يمتاز المشروع بتخطيط حديث، وخدمات أساسية، ومساحات مناسبة لمختلف الاحتياجات.",
+  "projects.details.alnaseem.longDescription.3":
+    "يركز المشروع على جودة التنفيذ والموقع المناسب وتوفير بيئة آمنة وهادئة للسكن.",
+  "projects.details.alnaseem.feature.1": "موقع مميز",
+  "projects.details.alnaseem.feature.2": "تصميم حديث",
+  "projects.details.alnaseem.feature.3": "خدمات متكاملة",
+  "projects.details.alnaseem.feature.4": "مساحات خضراء",
+  "projects.details.alnaseem.feature.5": "بيئة سكنية آمنة",
+  "projects.details.alnaseem.feature.6": "خيارات متعددة للوحدات",
 };
 
 interface LanguageProviderProps {

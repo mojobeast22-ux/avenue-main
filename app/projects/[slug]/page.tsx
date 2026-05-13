@@ -114,6 +114,38 @@ const getProjectData = (slug: string, t: any) => {
         "/bloom1/Image.png",
       ],
     },
+
+    alnaseem: {
+  id: 4,
+  slug: "alnaseem",
+  title: t("projects.details.alnaseem.title"),
+  type: t("projects.details.alnaseem.type"),
+  location: t("projects.details.alnaseem.location"),
+  mainImage: "/alnaseem/hero.jpg",
+  status: t("projects.details.alnaseem.status"),
+  statusColor: "bg-green-500",
+  description: t("projects.details.alnaseem.description"),
+  longDescription: [
+    t("projects.details.alnaseem.longDescription.1"),
+    t("projects.details.alnaseem.longDescription.2"),
+    t("projects.details.alnaseem.longDescription.3"),
+  ],
+  features: [
+    t("projects.details.alnaseem.feature.1"),
+    t("projects.details.alnaseem.feature.2"),
+    t("projects.details.alnaseem.feature.3"),
+    t("projects.details.alnaseem.feature.4"),
+    t("projects.details.alnaseem.feature.5"),
+    t("projects.details.alnaseem.feature.6"),
+  ],
+  gallery: [
+    "/alnaseem/1.jpg",
+    "/alnaseem/2.jpg",
+    "/alnaseem/3.jpg",
+    "/alnaseem/4.jpg",
+    "/alnaseem/hero.jpg",
+  ],
+},
   };
 
   return projects[slug];
@@ -132,20 +164,28 @@ export default function ProjectDetailPage({
 
   const [activeGalleryImage, setActiveGalleryImage] = useState(0);
 
+  if (!project) {
+    return (
+      <div className="min-h-screen bg-white" dir={isRTL ? "rtl" : "ltr"}>
+        <Navbar />
+        <div className="container mx-auto px-4 py-20 text-center">
+          <h1 className="text-3xl font-bold text-black">المشروع غير موجود</h1>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white" dir={isRTL ? "rtl" : "ltr"}>
       <Navbar />
 
       <div className="h-1 md:h-5"></div>
 
-      {/* Breadcrumb */}
       <div className="py-4 font-burdaBold">
-        <div className="ؤontainer mx-auto px-4">
+        <div className="container mx-auto px-4">
           <nav className="flex items-center gap-2 text-4xl">
-            <Link
-              href="/"
-              className="text-black hover:text-[#9e1915] transition"
-            >
+            <Link href="/" className="text-black hover:text-[#9e1915] transition">
               {t("projects.breadcrumb.home")}
             </Link>
             <ChevronRight className="w-4 h-4 text-black rotate-180" />
@@ -161,7 +201,6 @@ export default function ProjectDetailPage({
         </div>
       </div>
 
-      {/* Hero Section */}
       <section className="font-snd relative h-[80vh] bg-gradient-to-r from-[#1a365d] to-[#2d5a87] overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -191,7 +230,6 @@ export default function ProjectDetailPage({
       </section>
 
       <main className="bg-white">
-        {/* Project Overview */}
         <section className="py-16">
           <div className="font-snd container mx-auto px-10">
             <div className="grid lg:grid-cols-3 gap-16">
@@ -201,17 +239,14 @@ export default function ProjectDetailPage({
                     {t("projects.overview")}
                   </h2>
                   <div className="space-y-4">
-                    {project.longDescription &&
-                      project.longDescription.map(
-                        (paragraph: string, index: number) => (
-                          <p
-                            key={index}
-                            className="text-xl md:text-2xl text-gblack leading-relaxed font-burdaMedium"
-                          >
-                            {paragraph}
-                          </p>
-                        )
-                      )}
+                    {project.longDescription?.map((paragraph: string, index: number) => (
+                      <p
+                        key={index}
+                        className="text-xl md:text-2xl text-gblack leading-relaxed font-burdaMedium"
+                      >
+                        {paragraph}
+                      </p>
+                    ))}
                   </div>
                 </div>
 
@@ -220,15 +255,14 @@ export default function ProjectDetailPage({
                     {t("projects.features")}
                   </h3>
                   <div className="grid md:grid-cols-2 gap-4">
-                    {project.features &&
-                      project.features.map((feature: string, index: number) => (
-                        <div key={index} className="flex items-center gap-3">
-                          <CheckCircle className="w-5 h-5 text-[#e53e3e]" />
-                          <span className="text-black font-burdaMedium text-2xl">
-                            {feature}
-                          </span>
-                        </div>
-                      ))}
+                    {project.features?.map((feature: string, index: number) => (
+                      <div key={index} className="flex items-center gap-3">
+                        <CheckCircle className="w-5 h-5 text-[#e53e3e]" />
+                        <span className="text-black font-burdaMedium text-2xl">
+                          {feature}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -236,7 +270,6 @@ export default function ProjectDetailPage({
           </div>
         </section>
 
-        {/* Gallery Only Section */}
         <section className="py-20">
           <div className="font-snd container mx-auto px-4">
             <div className="w-full">
@@ -255,9 +288,7 @@ export default function ProjectDetailPage({
                     <div className="relative h-[60vh] overflow-hidden rounded-xl">
                       <Image
                         src={project.gallery[activeGalleryImage]}
-                        alt={`${project.title} - صورة ${
-                          activeGalleryImage + 1
-                        }`}
+                        alt={`${project.title} - صورة ${activeGalleryImage + 1}`}
                         fill
                         className="object-cover"
                       />
@@ -293,9 +324,7 @@ export default function ProjectDetailPage({
                       <div
                         key={index}
                         className={`relative h-24 overflow-hidden rounded-lg cursor-pointer ${
-                          activeGalleryImage === index
-                            ? "ring-4 ring-[#e53e3e]"
-                            : ""
+                          activeGalleryImage === index ? "ring-4 ring-[#e53e3e]" : ""
                         }`}
                         onClick={() => setActiveGalleryImage(index)}
                       >
@@ -314,7 +343,6 @@ export default function ProjectDetailPage({
           </div>
         </section>
 
-        {/* بروشورات المشروع */}
         {slug === "bloomvillage" && (
           <section className="py-20 bg-gray-50">
             <div className="font-snd container mx-auto px-6 md:px-10">
@@ -372,15 +400,11 @@ export default function ProjectDetailPage({
           </section>
         )}
 
-        {/*قسم مخطط المشروع */}
         {slug === "bloomvillage" && (
           <section className="py-20 bg-white">
             <div className="font-snd container mx-auto px-6 md:px-10">
               <h2 className="text-3xl md:text-5xl font-burdaBold text-black mb-10 text-center">
-                <span className="text-[#9e1915]">
-                  {" "}
-                  {t("projects.bloom.brouchure4")}
-                </span>
+                <span className="text-[#9e1915]">{t("projects.bloom.brouchure4")}</span>
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -415,9 +439,7 @@ export default function ProjectDetailPage({
                       target="_blank"
                       rel="noopener noreferrer"
                       className="absolute inset-0"
-                      aria-label={`فتح صورة مخطط المشروع ${
-                        index + 1
-                      } في نافذة جديدة`}
+                      aria-label={`فتح صورة مخطط المشروع ${index + 1} في نافذة جديدة`}
                     />
                   </div>
                 ))}
