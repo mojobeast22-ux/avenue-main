@@ -51,7 +51,7 @@ const enTranslations: Record<string, string> = {
 
   // About Section - English
   "about.sectionTag": "About Us",
-  "about.title1": "Avenue Towers",
+  "about.title1": "Abraj Al-Jadah",
   "about.title2": "Experts in Real Estate Development",
   "about.p1":
     "Our company was founded in 2019, and since then we have worked hard to provide reliable real estate consulting based on deep understanding of the Iraqi market and extensive industry experience.",

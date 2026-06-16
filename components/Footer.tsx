@@ -38,126 +38,136 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="font-snd bg-slate-900 text-white py-16">
+    <footer className="font-snd bg-[#0b121a] text-white pt-20">
       <div className="container max-w-7xl mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          {/* ABOUT */}
-          <div>
-            <div className="px-10 py-3 rounded-lg mb-6 w-fit">
-              <Link href="/" className="flex items-center">
-                <img
-                  src="/Avenue Logo White.png"
-                  alt="Avenue"
-                  className="h-10"
-                />
-              </Link>
-            </div>
-            <p className="text-gray-300 mb-6 leading-relaxed text-md md:text-xl font-burdaLight">
-              {t("footer.about.text")}
-            </p>
-
-            <div className="flex gap-3">
-              {socialLinks.map(({ icon: Icon, url }, i) => (
-                <Link
-                  key={i}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-600 transition"
-                >
-                  <Icon className="w-5 h-5" />
+        {/* Top area */}
+        <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-6 md:p-8 lg:p-10 shadow-[0_20px_80px_rgba(0,0,0,0.25)]">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+            {/* ABOUT */}
+            <div className="lg:col-span-1">
+              <div className="mb-6">
+                <Link href="/" className="inline-flex items-center">
+                  <img
+                    src="/Avenue Logo White.png"
+                    alt="Avenue"
+                    className="h-11 w-auto object-contain"
+                  />
                 </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* QUICK LINKS */}
-          <div>
-            <h3 className="text-lg font-burdaBold mb-6">
-              {t("footer.quickLinks.title")}
-            </h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                [t("footer.quickLinks.home"), "/"],
-                [t("footer.quickLinks.about"), "/about"],
-                [t("footer.quickLinks.services"), "/what-we-do"],
-                [t("footer.quickLinks.projects"), "/projects"],
-                [t("footer.quickLinks.news"), "/news"],
-                [t("footer.quickLinks.contact"), "/contact"],
-              ].map(([label, link], i) => (
-                <li key={i}>
-                  <Link
-                    href={link}
-                    className="flex items-center gap-2 text-gray-300 hover:text-white transition"
-                  >
-                    <ArrowLeft className="w-4 h-4" />
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* SERVICES */}
-          <div>
-            <h3 className="text-lg font-burdaBold mb-6">
-              {t("footer.services.title")}
-            </h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                [t("footer.services.item1"), <Building2 key="1" />],
-                [t("footer.services.item2"), <TrendingUp key="2" />],
-                [t("footer.services.item3"), <Users key="3" />],
-                [t("footer.services.item4"), <Briefcase key="4" />],
-                [t("footer.services.item5"), <Globe key="5" />],
-              ].map(([label, icon], i) => (
-                <li key={i}>
-                  <Link
-                    href="/what-we-do"
-                    className="flex items-center gap-2 text-gray-300 hover:text-white transition"
-                  >
-                    {icon}
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* CONTACT INFO */}
-          <div>
-            <h3 className="text-lg font-burdaBold mb-6">
-              {t("footer.contact.title")}
-            </h3>
-
-            <div className="space-y-4 text-sm text-gray-300">
-              <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 mt-1 text-gray-400" />
-                <div>
-                  <div className="font-semibold text-white mb-1">
-                    {t("footer.contact.office")}
-                  </div>
-                  <div>{t("footer.contact.address1")}</div>
-                </div>
               </div>
 
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-gray-400" />
-                <div>
-                  <div className="text-white font-semibold" dir="ltr">
+              <p className="text-gray-300 leading-8 text-base md:text-lg font-burdaLight mb-6">
+                {t("footer.about.text")}
+              </p>
+
+              <div className="flex flex-wrap gap-3">
+                {socialLinks.map(({ icon: Icon, url }, i) => (
+                  <Link
+                    key={i}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-gray-300 hover:text-white hover:bg-[#9e1915] hover:border-[#9e1915] transition-all duration-300"
+                  >
+                    <Icon className="w-5 h-5" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* QUICK LINKS */}
+            <div className="rounded-[24px] border border-white/8 bg-white/[0.02] p-5 md:p-6">
+              <h3 className="text-xl font-burdaBold mb-6 text-white">
+                {t("footer.quickLinks.title")}
+              </h3>
+
+              <ul className="space-y-3 text-sm md:text-base">
+                {[
+                  [t("footer.quickLinks.home"), "/"],
+                  [t("footer.quickLinks.about"), "/about"],
+                  [t("footer.quickLinks.services"), "/what-we-do"],
+                  [t("footer.quickLinks.projects"), "/projects"],
+                  [t("footer.quickLinks.news"), "/news"],
+                  [t("footer.quickLinks.contact"), "/contact"],
+                ].map(([label, link], i) => (
+                  <li key={i}>
+                    <Link
+                      href={link}
+                      className="flex items-center gap-2 text-gray-300 hover:text-white transition-all duration-300"
+                    >
+                      <ArrowLeft className="w-4 h-4 text-[#9e1915]" />
+                      <span>{label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* SERVICES */}
+            <div className="rounded-[24px] border border-white/8 bg-white/[0.02] p-5 md:p-6">
+              <h3 className="text-xl font-burdaBold mb-6 text-white">
+                {t("footer.services.title")}
+              </h3>
+
+              <ul className="space-y-3 text-sm md:text-base">
+                {[
+                  [t("footer.services.item1"), <Building2 key="1" className="w-4 h-4 text-[#9e1915]" />],
+                  [t("footer.services.item2"), <TrendingUp key="2" className="w-4 h-4 text-[#9e1915]" />],
+                  [t("footer.services.item3"), <Users key="3" className="w-4 h-4 text-[#9e1915]" />],
+                  [t("footer.services.item4"), <Briefcase key="4" className="w-4 h-4 text-[#9e1915]" />],
+                  [t("footer.services.item5"), <Globe key="5" className="w-4 h-4 text-[#9e1915]" />],
+                ].map(([label, icon], i) => (
+                  <li key={i}>
+                    <Link
+                      href="/what-we-do"
+                      className="flex items-center gap-2 text-gray-300 hover:text-white transition-all duration-300"
+                    >
+                      {icon}
+                      <span>{label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* CONTACT INFO */}
+            <div className="rounded-[24px] border border-white/8 bg-gradient-to-b from-[#9e1915]/15 to-white/[0.02] p-5 md:p-6">
+              <h3 className="text-xl font-burdaBold mb-6 text-white">
+                {t("footer.contact.title")}
+              </h3>
+
+              <div className="space-y-5 text-sm md:text-base text-gray-300">
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 border border-white/10 text-[#9e1915]">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="font-burdaBold text-white mb-1">
+                      {t("footer.contact.office")}
+                    </div>
+                    <div className="leading-7">{t("footer.contact.address1")}</div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 border border-white/10 text-[#9e1915]">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div className="text-white font-burdaBold" dir="ltr">
                     +964 770 123 4567
                   </div>
                 </div>
-              </div>
 
-              <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-gray-400" />
-                <div>
-                  <div className="text-white font-semibold">
-                    info@avenue-iq.com
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/10 border border-white/10 text-[#9e1915]">
+                    <Mail className="w-5 h-5" />
                   </div>
-                  <div className="text-gray-400 text-xs">
-                    {t("footer.contact.phone")}
+                  <div>
+                    <div className="text-white font-burdaBold">
+                      info@avenue-iq.com
+                    </div>
+                    <div className="text-gray-400 text-sm">
+                      {t("footer.contact.phone")}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -165,19 +175,19 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* COPYRIGHT */}
+        {/* Bottom bar */}
         <div
-          className="border-t font-burdaLight border-gray-800 pt-8 text-md text-gray-400 flex flex-col md:flex-row justify-between items-center gap-4"
+          className="mt-8 border-t border-white/10 py-6 text-sm md:text-base text-gray-400 flex flex-col md:flex-row justify-between items-center gap-4 font-burdaLight"
           dir="ltr"
         >
-          <p>
+          <p className="text-center md:text-left">
             &copy; {new Date().getFullYear()} {t("footer.rights")} Powered By{" "}
             <a
-              href="https://swt-iq.com/"
+              
               target="_blank"
-              className="hover:text-white"
+              className="hover:text-white transition-colors duration-300"
             >
-              SmartWave Technologies.
+              Abraj aljadah .
             </a>
           </p>
         </div>

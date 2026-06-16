@@ -62,78 +62,80 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-14 bg-gray-50">
+    <section className="py-20 md:py-24 bg-[#faf8f7]">
       <div className="container max-w-7xl mx-auto px-4 font-snd">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <div className="inline-block bg-gray-100 text-[#9e1915] px-4 py-2 rounded-full text-4xl font-burdaBold mb-6">
+        <div className="text-center mb-14 md:mb-16">
+          <div className="inline-flex items-center rounded-full border border-[#9e1915]/15 bg-white px-5 py-2 text-[#9e1915] text-base md:text-lg shadow-sm font-burdaBold mb-6">
             {t("projects.breadcrumb.current")}
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-burdaBold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-6xl xl:text-7xl font-burdaBold text-gray-900 mb-6 leading-[1.1]">
             {t("projects.title")}
           </h2>
 
-          <p className="text-lg md:text-3xl font-burdaLight text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-2xl xl:text-3xl font-burdaLight text-gray-600 max-w-4xl mx-auto leading-relaxed">
             {t("projects.description")}
           </p>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-7">
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="group overflow-hidden bg-white border-0 shadow-lg hover:shadow-2xl transition duration-500 rounded-2xl"
+              className="group overflow-hidden bg-white border border-black/5 shadow-[0_10px_35px_rgba(0,0,0,0.06)] hover:shadow-[0_20px_55px_rgba(0,0,0,0.1)] transition-all duration-500 rounded-[28px] hover:-translate-y-2"
             >
-              <div className="relative">
+              <div className="relative overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
                   width={700}
                   height={500}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-700"
                 />
 
-                <div className="absolute top-4 right-4 flex gap-2 z-10">
-                  <div className="bg-[#9e1915] text-white px-3 py-1 rounded-full text-md font-burdaMedium">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" />
+
+                <div className="absolute top-4 right-4 flex gap-2 z-10 flex-wrap">
+                  <div className="bg-white/90 text-gray-900 px-3 py-1 rounded-full text-sm font-burdaMedium backdrop-blur-sm">
                     {project.category}
                   </div>
+                </div>
 
-                  <div
-                    className={`px-3 py-1 rounded-full text-md font-burdaMedium ${
-                      project.status === t("project1.status")
-                        ? "bg-green-100 text-green-800"
-                        : "bg-yellow-100 text-yellow-800"
-                    }`}
-                  >
-                    {project.status}
+                <div className="absolute bottom-4 left-0 right-0 px-5 z-10">
+                  <h3 className="text-3xl md:text-4xl font-burdaBold text-white mb-2 leading-tight">
+                    {project.title}
+                  </h3>
+
+                  <div className="flex items-center gap-2 text-sm md:text-base text-white/90 font-burdaMedium">
+                    <MapPin className="w-4 h-4" />
+                    <span>{project.location}</span>
                   </div>
                 </div>
               </div>
 
-              <CardContent className="p-6">
-                <h3 className="text-3xl font-burdaBold mb-2 text-gray-900">
-                  {project.title}
-                </h3>
-
-                <div className="flex items-center gap-2 mb-3 text-lg text-gray-500 font-burdaBold">
-                  <MapPin className="w-4 h-4" />
-                  {project.location}
-                </div>
-
-                <p className="text-gray-600 font-burdaLight mb-4 text-lg md:text-2xl">
+              <CardContent className="p-6 md:p-7">
+                <p className="text-gray-600 font-burdaLight mb-5 text-base md:text-lg leading-8 line-clamp-4">
                   {project.description}
                 </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {project.features.map((feature, featureIndex) => (
+                    <span
+                      key={featureIndex}
+                      className="rounded-full border border-[#9e1915]/15 bg-[#9e1915]/5 px-3 py-1.5 text-sm text-[#9e1915] font-burdaMedium"
+                    >
+                      {feature}
+                    </span>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        {/* Button */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-14">
           <a href="/projects">
-            <Button className="bg-[#9e1915] hover:bg-[#e8251e] text-white px-8 py-3 rounded-full text-xl">
+            <Button className="bg-[#9e1915] hover:bg-[#8b1411] text-white px-8 md:px-10 py-3 rounded-full text-lg md:text-xl shadow-[0_14px_30px_rgba(158,25,21,0.18)] transition-all duration-300 hover:-translate-y-0.5">
               {t("projects.button.all")}
               <ArrowLeft className="w-5 h-5 mr-3" />
             </Button>
